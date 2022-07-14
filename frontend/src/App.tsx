@@ -1,11 +1,18 @@
-import DeleteButton from "./components/DeleteButton"
+import Header from "./components/Header"
+import ValidityCard from "./components/ValidityCard"
 
 
 function App() {
   return (
     <>
-      <h1>Olá Mundo!</h1>
-      <DeleteButton />
+    <Header/>
+    <main>
+      <section id="validity">
+        <div className="container">
+          <ValidityCard />
+        </div>
+      </section>
+    </main>
     </>
   )
 }
